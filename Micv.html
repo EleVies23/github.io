@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.KzN7AaIO8G46GMQlk89nOgHaHa?pid=ImgDet&rs=1" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS\estilocv.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1> Currículum Vitae </h1>
+
+    <h2> Marjorie Morales </h2>
+
+ <img src="https://randomuser.me/api/portraits/women/53.jpg"
+    class="img-fluid img-border" alt="Foto de Perfil"
+    class="mx-auto d-block mb-5">
+
+ <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h3> Presentación </h3>
+                <p>
+                    Soy una profesional apasionada y dedicada,
+                    con años de experiencia en mi campo.
+                    Mi objetivo es aplicar mis habilidades y conocimientos,
+                    para contribuir al éxito de cualquier equipo del que forme parte.
+                    Siempre estoy buscando oportunidades para crecer y aprender,
+                    y creo firmemente en el valor del trabajo duro y la perseverancia.
+                    Mi meta profesional es alcanzar una posición de liderazgo,
+                    donde pueda guiar a otros hacia el logro de sus propios objetivos y metas.
+                </p>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <button id="btn1">Información Personal</button>
+            </div>
+            <div class="col-md-4 text-center">
+                <button id="btn2">Experiencia</button>
+            </div>
+            <div class="col-md-4 text-center">
+                <button id="btn3">Habilidades</button>
+            </div>
+        </div>
+    </div>
+
+<ul id="lista1" style="display: none;">
+    <li>Nacionalidad: Argentina</li>
+    <li>Edad: 40 años</li>
+    <li>Estado civil: Soltera</li>
+    <li>Hijos: No</li>
+    <li>Movilidad Propia: Si</li>
+    <li>Disponibilidad para viajar: Si</li>
+</ul>
+
+<ul id="lista2" style="display: none;">
+    <li>2025-2022 Coorporación Tecno. Asesor de contenidos multimedia</li>
+    <li>2008-2015 Airlines Geo. Diseñador senior y Asesor Redes sociales</li>
+</ul>
+
+<ul id="lista3" style="display: none;">
+    <li>Dominio fluído de Inglés</li>
+    <li>Liderazgo</li>
+    <li>Autogestión</li>
+    <li>Creatividad</li>
+    <li>Escucha Activa y Empatía</li>
+    <li>Adaptabilidad</li>
+</ul>
+<div id="contact-icon" onclick="toggleContactInfo()">
+    <img src="https://icon-icons.com/icons2/38/PNG/512/contactcard_contactcard_tarjetadecontacto_4815.png" alt="Icono de contacto">
+</div>
+
+<div id="contact-info" style="display: none;">
+    <p>Nombre: Marjorie Morales</p>
+    <p>Email: marmor@example.com</p>
+    <p>Teléfono: +54 9 351 123-4567</p>
+</div>
+    <script src="Micv.js">
+    </script>
+</body>
+</html>
